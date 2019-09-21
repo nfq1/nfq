@@ -15,4 +15,4 @@
 
 });*/
 
-Route::get('/', 'JobController@index');
+Route::get('/', 'JobController@index')->name('job.index');
